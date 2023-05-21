@@ -1,0 +1,26 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../login.css">
+      </head>
+  <body>
+    <div class="design"></div>
+    <div class="design1"></div>
+    <div class="design2"></div>
+    <img class="club-logo" src="../Codechef.png">
+    <img class="logo" src="/VIT-Logo.png">
+    <img class="logoverse" src="../LOGO FULL.png">
+    <div class="login-box"></div>
+    <form method="post" action="/codechef/login">
+    <input type="text" id="email" name="username" placeholder="Username"/>
+    <input type="password" id="password" name="password" placeholder="Password">
+    <div class="forgot">Forgot your password?</div>
+    <p class="error"><%= locals.error %></p>
+    <div class="login">
+      <input type="submit" id="login" value="Login">
+    </div>
+</form>
+  </body>
+</html>

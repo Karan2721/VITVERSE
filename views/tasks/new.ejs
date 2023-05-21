@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../../task.css">
+        <link rel="stylesheet" href="../../dashboard1.css">
+    </head>
+    <body>
+        <div class="bg"></div>
+        <div class="background"></div>
+        <div class="good">Welcome, Thaman!</div>
+        <div class="name">VIT Verse</div>
+        
+        <div class="menu" style="display: flex; flex-direction: column;">
+            <div class="items" id="atask" style="display: flex; flex-direction: row;">
+                <img class="icon" src="../../atask.png">
+                <div class="list">Assign Tasks</div>
+            </div>
+            <div class="items" id="mem" style="display: flex; flex-direction: row;">
+                <img class="icon" src="../../edit.png">
+                <div class="list1">Members</div>
+            </div>
+            <div class="items" id="edit" style="display: flex; flex-direction: row;">
+                <img class="icon" src="../../edit.png">
+                <div class="list1">Edit Members</div>
+            </div>
+            <div class="items" id="member" style="display: flex; flex-direction: row;">
+                <img class="icon" src="../../add.png">
+                <div class="list1" onclick="location.href='/codechef/register';">Add Members</div>
+            </div>
+            <div class="items" id="logout" style="display: flex; flex-direction: row;">
+                <img class="icon" src="../../logout-01.png">
+                <div class="list1" onclick="location.href='/codechef/logout';">Logout</div>
+            </div>
+        </div> 
+        <form method = "post">
+        <div class="tt">
+            <div class="in" for="title">Task Title</div>
+            <input type="text" name="title" class="title" placeholder="Add Task Title Here...">
+        </div>
+        <div class="td">
+            <div class="in" for="description">Task Description</div>
+            <textarea class="description" name="description" rows="10" cols="30" placeholder="Add Task Description Here..."></textarea>
+        </div>
+        <div class="at">
+            <div class="inp" for="assign">Assign To</div>
+            <input type="text" class="assign" name="assignedto" placeholder="Username">
+        </div>
+        <div class="dd">
+            <div class="in" for="deadline">Deadline</div>
+            <input type="date" name="dueDate" class="deadline" placeholder="Date">
+        </div>
+        <div class="up">
+            <div class="inp" for="attach">Upload Attachments</div>
+            <input type="file" name="attcah" class="attach" placeholder="Upload Files">
+        </div>
+        <input type="hidden" name="status" value="Pending">
+        <div class="add">
+            <input type="submit" id="add" value="Add" onclick="alert('task successfully added')">
+        </div>
+    </form>
+    </body>
+</html>

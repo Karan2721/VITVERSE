@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../../dashboard-level3.css">
+        <link rel="stylesheet" href="../../assigned.css">
+    </head>
+    <body>
+        <div class="background"></div>
+        <div class="good">Welcome!</div>
+        <img class="club-logo" src="../../Codechef.png">
+        <div class="line"></div>
+        <div class="menu" style="display: flex; flex-direction: column;">
+            <div class="items" id="task" style="display: flex; flex-direction: row;">
+                <img class="icon" src="../../task.png">
+                <div class="list2" onclick="location.href='/codechef/tasks/assigned';">Assigned Tasks</div>
+            </div>
+            <div class="items" id="clock" style="display: flex; flex-direction: row;">
+                <img class="icon" src="../../clock.png">
+                <div class="list1" onclick="location.href='/codechef/tasks/pending';">Pending Tasks</div>
+            </div>
+            <div class="items" id="cube" style="display: flex; flex-direction: row;">
+                <img class="icon" src="../../cube.png">
+                <div class="list1" onclick="location.href='/codechef/tasks/completed';">Completed Tasks</div>
+            </div>
+            <div class="items" id="members" style="display: flex; flex-direction: row;">
+                <img class="icon" src="../../edit.png">
+                <div class="list1" onclick="location.href='/codechef/members';">Members</div>
+            </div>
+            <div class="items" id="logout" style="display: flex; flex-direction: row;">
+                <img class="icon" src="../../logout-01.png">
+                <div class="list1" onclick="location.href='/codechef/logout';">Logout</div>
+            </div>
+        </div> 
+        <div class="tasks" style="display: flex; flex-direction: column;">
+            <div class="task" style="display: flex; flex-direction: row;">
+                <div class="t">Tasks</div>
+                <div class="dead">Deadline</div>
+                <div class="s">Status</div>
+                <div class="det">Details</div>
+            </div>
+            <% tasks.forEach((task) => { %>
+            <div class="task1" style="display: flex; flex-direction: row;">
+                <div class="tas"style="display: flex; flex-direction: column;">
+                    <div class="main"><%= task.title %></div>
+                    <div class="sub"><%= task.currentDate.toDateString() %>   |   Vaibhav Pathak</div>
+                </div>
+                <div class="deadline"><%= task.dueDate.toDateString() %></div>
+                <div class="status"><%= task.status %></div>
+                <div class="details">View Details</div>
+               <% }); %>
+        </div>
+     
+        </body>
+</html>

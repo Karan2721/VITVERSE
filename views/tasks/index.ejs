@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>All Tasks</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Task Manager</h1>
+  </header>
+
+  <main>
+    <h2>All Tasks</h2>
+ddd
+    <ul>
+      <% tasks.forEach((task) => { %>
+        <li>
+          <h3><%= task.title %></h3>
+          <p><%= task.description %></p>
+          <p>Due Date: <%= task.dueDate.toDateString() %></p>
+        </li>
+      <% }); %>
+    </ul>
+
+    <a href="/codechef/tasks/new">Add New Task</a>
+  </main>
+</body>
+</html>

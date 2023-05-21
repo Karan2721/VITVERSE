@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../addmembers.css">
+        <link rel="stylesheet" href="../dashboard1.css">
+    </head>
+    <body>
+        <div class="bg"></div>
+        <div class="background"></div>
+        <div class="good">Good Evening, Thaman !</div>
+        <div class="add">Add Member</div>
+        <div class="name">VIT Verse</div>
+        <div class="menu" style="display: flex; flex-direction: column;">
+            <div class="items" id="atask" style="display: flex; flex-direction: row;">
+                <img class="icon" src="../atask.png">
+                <div class="list1" onclick="location.href='/codechef/tasks/new';">Assign Tasks</div>
+            </div>
+            <div class="items" id="mem" style="display: flex; flex-direction: row;">
+                <img class="icon" src="../edit.png">
+                <div class="list1">Members</div>
+            </div>
+            <div class="items" id="edit" style="display: flex; flex-direction: row;">
+                <img class="icon" src="../edit.png">
+                <div class="list1">Edit Members</div>
+            </div>
+            <div class="items" id="member" style="display: flex; flex-direction: row;">
+                <img class="icon" src="../add.png">
+                <div class="list" onclick="location.href='/codechef/register';">Add Members</div>
+            </div>
+            <div class="items" id="logout" style="display: flex; flex-direction: row;">
+                <img class="icon" src="../logout-01.png">
+                <div class="list1" onclick="location.href='/codechef/logout';">Logout</div>
+            </div>
+        </div> 
+        <form method = "POST">
+        <div class="fname">
+            <div class="i" for="fanme">Name</div>
+            <input type="text" name="name" class="in" placeholder="Enter Name">
+        </div>
+        <div class="domain">
+            <div class="input1" for="domain">Domain</div>
+            <input type="text" name="domain" class="input2" placeholder="Enter Domain">
+        </div>
+        <div class="mentor">
+            <div class="input1" for="mentor">Mentor</div>
+            <input type="text" name="mentor" class="input2" placeholder="Enter Mentor">
+        </div>
+        <div class="regno">
+            <div class="inp" for="regno">Registration Number</div>
+            <input type="text" name="username" class="inpu" placeholder="Enter Registration No.">
+        </div>
+        <div class="access">
+            <div class="inp" for="access">Access Level</div>
+            <input type="text" name="role" class="inpu" placeholder="Enter Access Level">
+        </div>
+        <div class="password">
+            <div class="inp" for="assign">Password</div>
+            <input type="text" class="inpu" name="password" placeholder="Password">
+        </div>
+        <div class="addm">
+            <input type="submit" id="add" value="Add" onclick="alert('user successfully added')">
+        </div>
+      </form>
+    </body>
+</html>
