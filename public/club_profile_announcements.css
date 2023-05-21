@@ -1,0 +1,182 @@
+html, body{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    background-color: #090909;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    height: 6.38%;
+    left: 1.953%;
+    top: 2.77%;
+}
+.line{
+    position: absolute;
+    width: 100%;
+    height: 0.138%;
+    top: 10.13%;
+    background-color: #d1d1d1b1;
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.386),white);
+}
+.features1,.features2,.features3,.features4{
+font-family: 'Aspekta Variable';
+font-style: normal;
+font-weight: 602;
+font-size: 25px;
+line-height: auto;
+color: #D1D1D1;
+font-stretch: 0;
+margin-left:9.5%;
+}
+.name{
+font-family: 'Aspekta Variable';
+font-style: normal;
+font-weight: 602;
+font-size: 25px;
+line-height: auto;
+color: #D1D1D1;
+font-stretch: 0;
+margin-right: 26.29%;
+}
+.announcements{
+position: absolute;
+width: 57.6%;
+height: 60.3%;
+left: 7.9%;
+top: 20.5%;
+}
+.announcement{
+    position: absolute;
+    width:100%;
+    height:19.2%;
+}
+.announcement1{
+    position: absolute;
+    width:100%;
+    height:19.2%;
+    top:26.9%;
+}
+.announcement2{
+    position: absolute;
+    width:100%;
+    height:19.2%;
+    top:53.8%;
+}
+.announcement3{
+    position: absolute;
+    width:100%;
+    height:19.2%;
+    top:80.8%;
+}
+.date{
+position: absolute;
+height:100%;
+width:11.31%;
+margin-right: 2.48%;
+}
+.day,.year{
+font-family: 'Aspekta Variable';
+font-style: normal;
+font-weight: 531;
+font-size: 25px;
+line-height: 4.4%;
+letter-spacing: 0.0625%;
+color: #D1D1D1;
+font-stretch: 0;
+text-shadow: 0px 4px 10px rgba(209, 209, 209, 0.25);
+}
+.day{
+margin-bottom:34%;
+}
+.glow-line{
+position: absolute;
+width: 0.175%;
+height: 100%;
+left: 12.5%;
+bottom: 27%;
+background-color: #d1d1d100;
+background-image: linear-gradient( rgba(255, 255, 255, 0),white ,rgba(255, 255, 255, 0));
+box-shadow: 0px 4px 10px rgba(209, 209, 209, 0.25);
+}
+.inf{
+position: absolute;
+height:100%;
+width:82.9%;
+left: 17.13%;
+}
+.heading{
+    font-family: 'Aspekta Variable';
+    font-style: normal;
+    font-weight: 531;
+    font-size: 25px;
+    line-height: 4.4%;
+    letter-spacing: 0.0625%;
+    color: #D1D1D1;
+    font-stretch: 0;
+    text-shadow: 0px 4px 10px rgba(209, 209, 209, 0.25);
+}
+.info{
+    font-family: 'Aspekta Variable';
+    font-style: normal;
+    font-weight: 241;
+    font-size: 22px;
+    line-height: 0.4;
+    letter-spacing: 0.0625%;
+    color: #ACACAC;
+    font-stretch: 0;
+    text-shadow: 0px 4px 10px rgba(209, 209, 209, 0.25);
+}
+.info{
+    margin-top: 4.2%;
+}
+.view{
+position: absolute;
+width: 9.6%;
+height: 4.3%;
+left: 85.31%;
+top: 86.67%;
+font-family: 'Aspekta Variable';
+font-style: normal;
+font-weight: 708;
+font-size: 22px;
+line-height: 3.2%px;
+letter-spacing: 0.0625%;
+text-decoration-line: underline;
+color: #ACACAC;
+font-stretch: 0;
+}
+.features1:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    padding-bottom: 0.65%;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+.features2:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    padding-bottom: 0.65%;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+.features3:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    padding-bottom: 0.65%;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+.features4:hover{
+    cursor: pointer;
+    transform: scale(1.07);
+    padding-bottom: 0.65%;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}

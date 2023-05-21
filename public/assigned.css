@@ -1,0 +1,186 @@
+html, body{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    background-color: #090909;
+}
+.line{
+position: absolute;
+width: 77.4%;
+height: 0.125%;
+right:0%;
+top: 30.5%;
+background-color: #ACACAC;
+}
+.club-logo{
+position: absolute;
+width: 173px;
+height: 62px;
+left: 40px;
+top: 40px;
+}
+.name{
+position: absolute;
+width: 83.9%;
+height: 6.39%;
+left: 2.73%;
+top: 6.86%;
+font-family: 'Aspekta Variable';
+font-style: normal;
+font-weight: 602;
+font-size: 32px;
+line-height: 6.39%;
+color: #D1D1D1;
+font-stretch: 0;
+}
+.good{
+position: absolute;
+width: 27.26%;
+height: 6.39%;
+left: 22.73%;
+top: 12.5%;
+font-family: 'Aspekta Variable';
+font-style: normal;
+font-weight: 602;
+font-size: 32px;
+line-height: 6.39%;
+color: #ACACAC;
+font-stretch: 0;
+}
+.menu{
+position: absolute;
+width: 14.6%;
+height: 40.21%;
+left: 2.73%;
+top: 27.5%;
+}
+.items{
+position: absolute;
+width:97.86%;
+height:5.89%;
+left:0%;
+}
+.icon{
+position:absolute;
+left:0%;
+}
+.list1{
+    position:absolute;
+    width:82.51%;
+    height:81.25%;
+    left:19.125%;
+    font-family: 'Aspekta Variable';
+    font-style: normal;
+    font-weight: 449;
+    font-size: 22px;
+    line-height: 81.25%;
+    color: #ACACAC;
+    font-stretch: 0;
+    padding-top:4.125%
+}
+.list2{
+    position:absolute;
+    width:82.51%;
+    height:81.25%;
+    left:19.125%;
+    font-family: 'Aspekta Variable';
+    font-style: normal;
+    font-weight: 449;
+    font-size: 22px;
+    line-height: 81.25%;
+    color: #FFFFFF;
+    font-stretch: 0;
+    padding-top:4.125%
+}
+.tasks{
+position: absolute;
+width: 77.27%;
+height: 49.5%;
+left: 22.73%;
+top: 22.36%;
+}
+.task{
+position: absolute;
+width:100%;
+height:14.04%;
+top:7%;
+font-family: 'Aspekta Variable';
+font-style: normal;
+font-weight: 531;
+font-size: 28px;
+line-height: 11.23%;
+color: #ACACAC;
+}
+.l{
+    padding-right: 10.62%;
+    width:18.91%;
+}
+.t{
+    padding-right: 36.27%;
+}
+.dead,.s,.det{
+    padding-right: 15.99%;
+}
+.tas{
+    width:32.5%;
+    height:100%;
+    padding-right:9.1%;
+}
+.main{
+    padding-bottom:2%;
+}
+.sub{
+font-family: 'Aspekta Variable';
+font-style: normal;
+font-weight: 351;
+font-size: 15px;
+line-height: 42%;
+color: #ACACAC;
+font-stretch: 0;
+letter-spacing: 0.03em;
+bottom:0%;
+}
+.task1{
+    position: absolute;
+    width:100%;
+    height: 290px;
+    font-family: 'Aspekta Variable';
+    font-style: normal;
+    font-weight: 449;
+    margin-top:20px;
+    font-size: 20px;
+    line-height: 11.23%px;
+    color: #D1D1D1;
+    font-stretch: 0;
+    top:22.47%;
+}
+.deadline{
+    padding-right:11.32%;
+    width:12.97%;
+    height:100%;
+}
+.status{
+    padding-right:11.32%;
+    width:8.108%;
+    height:100%;
+}
+.details{
+    font-weight: 531;
+    font-size: 15px;
+    width:9.94%;
+    height:100%;
+    text-decoration: underline;
+    color: #ACACAC;
+    padding-left: 1.3%;
+}
+.last-updated{
+    padding-right:9.32%;
+    width:12.97%;
+    height:100%;
+}

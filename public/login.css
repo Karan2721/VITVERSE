@@ -1,0 +1,218 @@
+html, body{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    background-color: #090909;
+}
+.name{
+    position: absolute;
+    width: 83.9%;
+    height: 6.39%;
+    left: 2.73%;
+    top: 6.86%;
+    font-family: 'Aspekta Variable';
+    font-style: normal;
+    font-weight: 602;
+    font-size: 32px;
+    line-height: 6.39%;
+    color: #D1D1D1;
+    font-stretch: 0;
+}
+.logo{
+position: absolute;
+width:24%;
+aspect-ratio: auto;
+left: 9.86%;
+top: 41.9%;
+}
+.logoverse{
+    position: absolute;
+    width:24.04%;
+    aspect-ratio: auto;
+    left:57.81%;
+    top:19.62%;
+    z-index: 2;
+}
+.login-box{
+    position: absolute;
+    width: 43.12%;
+    height: 87.77%;
+    left: 48.73%;
+    top: 6.11%;
+    background: #090909;
+    opacity: 0.9;
+    border-radius: 20px;
+    z-index: 0;
+}
+#email { 
+position: absolute;
+width: 25.8%;
+height: 7.03%;
+left: 52.2%;
+top: 39.7%;
+background: rgba(217, 217, 217, 0.2);
+border-radius: 13px;
+background-image: url(../User_hackathon.png);
+background-repeat: no-repeat;
+background-position: 5% 45%;
+z-index: 0;
+}
+::placeholder {
+font-family: 'Aspekta Variable';
+font-style: normal;
+font-weight: 602;
+font-size: 25px;
+line-height: 3.34%;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.45);
+font-stretch: 0;
+}
+input:focus::placeholder {
+    color: transparent;
+  }
+input[type=text]{
+    padding:0px 5%;
+    font-family: 'Aspekta Variable';
+    font-style: normal;
+    font-weight: 602;
+    font-size: 25px;
+    line-height: 3.34%;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.45);
+    font-stretch: 0;
+}
+#password { 
+    position: absolute;
+    width: 25.8%;
+    height: 7.03%;
+    left: 52.2%;
+    top: 51.29%;
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 13px;
+    background-image: url(../lock_hackathon.png);
+background-repeat: no-repeat;
+background-position: 5% 45%;
+z-index: 0;
+    }
+input[type=password]{
+    padding:0px 5%;
+    font-family: 'Aspekta Variable';
+    font-style: normal;
+    font-weight: 602;
+    font-size: 25px;
+    line-height: 3.34%;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.45);
+    font-stretch: 0;
+    }
+.login{
+width: 11.15%;
+height: 6.67%;
+left: 64.6%;
+top: 65.3%;
+z-index: 0;
+}
+#login{
+position: absolute;
+width: 16.15%;
+height: 6.67%;
+left: 63.6%;
+top: 65.3%;
+background: rgba(0, 0, 0, 0.8);
+border-radius: 20px;
+font-family: 'Aspekta Variable';
+font-style: normal;
+font-weight: 531;
+font-size: 22px;
+line-height: 4.6%;
+color: #D1D1D1;
+font-stretch: 0;
+}
+.design{
+position: absolute;
+width: 18.9%;
+height: 50%;
+left: 38.2%;
+top: 13.8%;
+background: #D9D9D9;
+filter: blur(115px);
+opacity: 0.2;
+z-index: -2;
+}
+.design1{
+position: absolute;
+width: 18.9%;
+height: 34.7%;
+left: 87.2%;
+top: -12.9%;
+background: #FFFFFF;
+filter: blur(100px);
+opacity: 0.2;
+z-index: -2;
+}
+.design1{
+    position: absolute;
+    width: 18.9%;
+    height: 34.7%;
+    left: 87.2%;
+    top: -12.9%;
+    background: #FFFFFF;
+    filter: blur(100px);
+    opacity: 0.2;
+    z-index: -2;
+ }
+ .design2{
+    position: absolute;
+    width: 18.9%;
+    height: 34.7%;
+    left: 87.2%;
+    bottom: -12.9%;
+    background: #FFFFFF;
+    filter: blur(100px);
+    opacity: 0.2;
+    z-index: -2;
+ }
+ .error {
+    position: absolute;
+width: 11.15%;
+height: 6.67%;
+right: 10.6%;
+top: 60.3%;
+font-family: 'Aspekta Variable';
+font-style: normal;
+font-weight: 531;
+font-size: 22px;
+line-height: 4.6%;
+color: red;
+font-stretch: 0;
+}
+.club-logo{
+    position: absolute;
+width: 173px;
+height: 62px;
+left: 20px;
+top: 20px;
+}
+.forgot{
+    position: absolute;
+    width: 13.4%;
+    height: 2.4%;
+    left: 52.7%;
+    top: 62.5%;
+    font-family: 'Aspekta Variable';
+    font-style: normal;
+    font-weight: 531;
+    font-size: 16px;
+    line-height: 2.4%;
+    color: #D1D1D1;
+    font-stretch: 0;
+}
+.forgot:hover{
+    cursor:pointer;
+}
